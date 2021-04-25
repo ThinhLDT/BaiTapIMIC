@@ -14,7 +14,7 @@ void main()
 	//printf("%s", buffer);
 	char* key = "num_price\">";
 	char* temp = strstr(buffer, key);
-	//temp += strlen(key) + 0;
+	//temp += strlen(key) + 2;
 
 	char giavang[32] = { 0 };
 	int cnt = 0;
